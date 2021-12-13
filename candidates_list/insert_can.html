@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8"> 
+	<title>ADD FORM</title> 
+</head> 
+<body align = center><br> <br><br>
+<div align = center>
+	<h3>CHOOSE CANDIDATES</h3> </div> <br><br>
+	<?php include 'table_can_list.php'; ?>
+	<?php include 'table_can.php'; ?>
+	<form action = "?" method = "POST">
+		<div align = center>
+			
+			<label for = "candidate_id">Enter Candidate ID:</label>
+			<input type = text id = name name = "canid"><br><br><br>
+			
+		</div>
+		<div align = center>
+			<input type = "submit" name = "FullSend1" value = "Add">
+			<input type = "reset" value="Reset" name = "rst"> 
+			<div align = center><br>
+			<p><a href = "controller.php">FINISH</a></p>
+			</div>
+		</div>
+	</form>
+</body> 
+</html>

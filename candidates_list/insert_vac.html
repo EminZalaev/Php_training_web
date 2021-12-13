@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+	<meta charset="UTF-8"> 
+	<title>ADD FORM</title> 
+</head> 
+<body align = center><br> <br><br>
+<div align = center>
+	<h3>CHOOSE VACANCY</h3> </div> <br><br>
+	<?php include 'table_vac.php'; ?>
+	<form action = "?" method = "POST">
+		<div align = center>
+			
+			<label for = "vacancy_id">Enter Vacancy ID:</label>
+			<input type = text id = name name = "vacid"><br><br><br>
+			<label for = "waiting_salary">Enter Salary:</label>
+			<input type = text id = name name = "slr"><br><br><br>
+			
+		</div>
+		<div align = center>
+			<input type = "submit" name = "FullSend3" value = "Add">
+			<input type = "reset" value="Reset" name = "rst"> 
+			<div align = center>
+			<p><a href = "controller.php">Back</a></p>
+			</div>
+		</div>
+	</form>
+</body> 
+</html>
